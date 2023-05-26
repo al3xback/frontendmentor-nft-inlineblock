@@ -1,0 +1,20 @@
+@use 'sass:math';
+@use '../abstracts/variables' as var;
+@use '../abstracts/functions' as func;
+
+body {
+	position: relative;
+	background-color: var.$color-dark-blue-1;
+	font-family: var.$font-family-primary;
+	-webkit-font-smoothing: antialiased;
+	font-size: func.em(16);
+	font-weight: var.$font-weight-400;
+	color: var.$color-soft-blue;
+	line-height: math.div(20, 16);
+	min-width: 420px;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}

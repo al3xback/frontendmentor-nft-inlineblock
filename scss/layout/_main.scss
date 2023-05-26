@@ -1,0 +1,17 @@
+main,
+main > .container,
+main > .container::before {
+    min-height: inherit;
+}
+
+main > .container {
+    text-align: center;
+}
+
+main > .container::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    margin-left: -1px;
+}

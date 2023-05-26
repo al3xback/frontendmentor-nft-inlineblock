@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn--link {
+    color: var.$color-white;
+    @include mix.transition(opacity .3s);
+}
+
+.btn--link:hover {
+	color: var.$color-cyan;
+}
