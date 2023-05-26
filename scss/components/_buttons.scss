@@ -2,13 +2,13 @@
 @use '../abstracts/mixins' as mix;
 
 .btn {
-    display: inline-block;
-    text-decoration: none;
+	display: inline-block;
+	text-decoration: none;
 }
 
 .btn--link {
-    color: var.$color-white;
-    @include mix.transition(opacity .3s);
+	color: var.$color-white;
+	@include mix.transition(opacity 0.3s);
 }
 
 .btn--link:hover {
