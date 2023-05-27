@@ -197,13 +197,41 @@ ol {
 }
 
 .card__image {
+  position: relative;
   margin-bottom: 1.5em;
-}
-
-.card__image img {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
   border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.card__image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  background-image: url("../../images/icons/view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-border-radius: inherit;
+  -moz-border-radius: inherit;
+  border-radius: inherit;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.card__image:hover::before {
+  opacity: 1;
+}
+
+.card__image img {
+  -webkit-border-radius: inherit;
+  -moz-border-radius: inherit;
+  border-radius: inherit;
 }
 
 .card__title {

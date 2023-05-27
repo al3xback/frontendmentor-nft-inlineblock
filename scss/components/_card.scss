@@ -15,11 +15,32 @@
 }
 
 .card__image {
+	position: relative;
 	margin-bottom: func.em(24);
+	@include mix.border-radius(0.5em);
+	cursor: pointer;
+}
+
+.card__image::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	margin: auto;
+	background-color: var.$color-cyan-light;
+	background-image: url('../../images/icons/view.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	@include mix.border-radius(inherit);
+	@include mix.transition(opacity 0.3s);
+	opacity: 0;
+}
+
+.card__image:hover::before {
+	opacity: 1;
 }
 
 .card__image img {
-	@include mix.border-radius(0.5em);
+	@include mix.border-radius(inherit);
 }
 
 .card__title {
