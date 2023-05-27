@@ -1,25 +1,23 @@
 {
-	"name": "fmentor-nft",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"dev": "sass --watch scss/main.scss css/main.css",
-		"build": "sass scss/main.scss css/main.css",
-		"lint": "prettier --write ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-nft-inlineblock.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-nft-inlineblock/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-nft-inlineblock#readme",
-	"devDependencies": {
-		"prettier": "^2.8.8",
-		"sass": "^1.62.1"
-	}
+  "name": "fmentor-nft-inlineblock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al3xback/fmentor-nft-inlineblock.git"
+  },
+  "author": "alex <al3xback@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/al3xback/fmentor-nft-inlineblock/issues"
+  },
+  "homepage": "https://github.com/al3xback/fmentor-nft-inlineblock#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1"
+  }
 }
