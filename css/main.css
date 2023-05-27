@@ -171,13 +171,13 @@ ol {
 .icon-ethereum {
   width: 0.6875em;
   height: 1.125em;
-  background-image: url("../../images/icons/ethereum.svg");
+  background-image: url("../images/icons/ethereum.svg");
 }
 
 .icon-clock {
   width: 1em;
   height: 1em;
-  background-image: url("../../images/icons/clock.svg");
+  background-image: url("../images/icons/clock.svg");
 }
 
 .card {
@@ -211,7 +211,7 @@ ol {
   inset: 0;
   margin: auto;
   background-color: hsla(178, 100%, 50%, 0.5);
-  background-image: url("../../images/icons/view.svg");
+  background-image: url("../images/icons/view.svg");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-border-radius: inherit;
