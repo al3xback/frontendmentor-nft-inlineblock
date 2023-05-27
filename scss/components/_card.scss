@@ -30,20 +30,14 @@
 	margin-bottom: func.em(16, 18);
 }
 
-.card__stats-list,
-.card__author {
-	white-space: nowrap;
-}
-
-.card__stats-list-item,
-.card__author-desc {
-	font-size: func.em(15);
+.card__stats-list {
+	font-size: 0;
 }
 
 .card__stats-list-item {
 	display: inline-block;
 	width: 50%;
-	white-space: normal;
+	font-size: func.rem(15);
 }
 
 .card__stats-list-item:first-child {
@@ -62,7 +56,7 @@
 }
 
 .card__stats-list-item i {
-	margin-right: func.em(7.7);
+	margin-right: func.em(4);
 }
 
 .card__author {
@@ -74,13 +68,13 @@
 .card__author-img {
 	width: func.em(33);
 	height: auto;
-	margin-right: func.em(16);
+	margin-right: func.em(12);
 	border: 1px solid var.$color-white;
 	border-radius: 50%;
 }
 
 .card__author-desc {
-	white-space: normal;
+	font-size: func.em(15);
 }
 
 @media (min-width: 48em) {
@@ -92,7 +86,10 @@
 		margin-bottom: func.em(24, 18);
 	}
 
-	.card__stats-list-item,
+	.card__stats-list-item {
+		font-size: func.rem(16);
+	}
+
 	.card__author-desc {
 		font-size: func.em(16);
 	}
