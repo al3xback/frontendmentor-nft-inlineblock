@@ -183,6 +183,7 @@ ol {
 .card {
   display: inline-block;
   vertical-align: middle;
+  width: 100%;
   max-width: 21.875em;
   padding: 1.5em;
   margin: 2.5em 0;
