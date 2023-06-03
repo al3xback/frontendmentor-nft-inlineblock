@@ -8,7 +8,7 @@
 	width: 100%;
 	max-width: func.em(350);
 	padding: func.em(24);
-	margin: func.em(40) 0;
+	margin: func.em(40) 0 func.em(60);
 	background-color: var.$color-dark-blue-2;
 	text-align: left;
 	@include mix.border-radius(15px);
