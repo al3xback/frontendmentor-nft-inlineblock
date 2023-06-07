@@ -1,5 +1,3 @@
-@use '../abstracts/variables' as var;
-
 footer {
 	position: absolute;
 	left: 0;
@@ -7,5 +5,9 @@ footer {
 	width: 100%;
 	padding: 1em 0;
 	text-align: center;
-	font-size: 0.75em;
+	font-size: 0.8em;
+}
+
+footer p {
+	font-size: inherit;
 }
