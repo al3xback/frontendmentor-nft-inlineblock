@@ -119,7 +119,6 @@ h6 {
 p {
   font-size: 1.125em;
   font-weight: 300;
-  line-height: 1.4444444444;
 }
 
 strong {
@@ -134,7 +133,7 @@ body {
   font-size: 1em;
   font-weight: 400;
   color: hsl(215, 51%, 70%);
-  line-height: 1.25;
+  line-height: 1.4375;
   min-width: 420px;
 }
 
