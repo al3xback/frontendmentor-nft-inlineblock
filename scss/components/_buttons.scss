@@ -8,7 +8,7 @@
 
 .btn--link {
 	color: var.$color-white;
-	@include mix.transition(color 0.15s ease-in-out);
+	transition: color 0.15s ease-in-out;
 }
 
 .btn--link:hover {
