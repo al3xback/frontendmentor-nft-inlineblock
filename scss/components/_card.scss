@@ -7,8 +7,8 @@
 	width: 100%;
 	max-width: func.em(350);
 	padding: func.em(24);
-	margin: func.em(40) 0 func.em(60);
 	background-color: var.$color-dark-blue-2;
+	margin: func.em(40) 0 func.em(60);
 	text-align: left;
 	border-radius: 15px;
 	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
@@ -16,8 +16,8 @@
 
 .card__image {
 	position: relative;
-	margin-bottom: func.em(24);
 	background-color: var.$color-soft-blue;
+	margin-bottom: func.em(24);
 	border-radius: 8px;
 	cursor: pointer;
 }
@@ -26,14 +26,13 @@
 	content: '';
 	position: absolute;
 	inset: 0;
-	margin: auto;
 	background-color: var.$color-cyan-light;
 	background-image: url('../images/icons/view.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: inherit;
-	transition: opacity 0.3s;
 	opacity: 0;
+	transition: opacity 0.3s;
 }
 
 .card__image:hover::before {
