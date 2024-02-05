@@ -3,15 +3,15 @@
 
 .card {
 	display: inline-block;
-	vertical-align: middle;
 	width: 100%;
 	max-width: func.em(350);
 	padding: func.em(24);
 	background-color: var.$color-dark-blue-2;
 	margin: func.em(30) 0 func.em(60);
-	text-align: left;
 	border-radius: 15px;
 	box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	vertical-align: middle;
 }
 
 .card__image {
