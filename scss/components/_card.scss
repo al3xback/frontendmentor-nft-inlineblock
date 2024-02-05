@@ -57,11 +57,16 @@
 	font-size: 0;
 }
 
-.card__stats-list-item {
+.card__stats-list-item,
+.card__stats-list-item > *,
+.card__author > * {
 	display: inline-block;
+	vertical-align: middle;
+}
+
+.card__stats-list-item {
 	width: 50%;
 	font-size: func.rem(15);
-	vertical-align: middle;
 }
 
 .card__stats-list-item:first-child {
@@ -71,12 +76,6 @@
 
 .card__stats-list-item:last-child {
 	text-align: right;
-}
-
-.card__stats-list-item > *,
-.card__author > * {
-	display: inline-block;
-	vertical-align: middle;
 }
 
 .card__stats-list-item i {
